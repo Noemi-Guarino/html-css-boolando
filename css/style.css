@@ -14,10 +14,9 @@ img{
     background-color: #FF6900 ;
     height: 80px;
     width: 100%;
-    border: 3px dashed blue;
+    /* border: 3px dashed blue; */
     /* position: fixed;   */
     margin-bottom: 40px;
-    
 }
 
 .columns{
@@ -69,8 +68,6 @@ img{
     position: relative;   
 }
 
-{}
-
 .tags{
     position: absolute;
     bottom: 100px;
@@ -79,8 +76,7 @@ img{
 .red{
     background-color: red;
     color: white;
-    padding: 5px;
-    
+    padding: 5px;  
 }
 
 .green{
@@ -99,4 +95,31 @@ img{
 
 .strike{
     text-decoration: line-through;
+}
+
+.footer-container{
+    background-color: black ;
+    height: 80px;
+    width: 100%;
+}
+
+.footer_columns{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 20px;
+     vertical-align: middle; 
+     margin-top: 20px;    
+}
+
+.footer-col-1, .footer-col-2{
+    color: white;
+}
+
+.footer-col-1> a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col-2> i{
+margin-right: 10px;
 }
