@@ -1,9 +1,13 @@
-{}
+img{
+    width: 100%;
+    display: block;
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header_container{
@@ -11,22 +15,21 @@
     height: 80px;
     width: 100%;
     border: 3px dashed blue;
-    position: fixed;
+    /* position: fixed;   */
+    margin-bottom: 40px;
     
 }
 
 .columns{
    display: flex; 
-   justify-content: space-around;
+   justify-content: space-between;
    padding: 20px;
    border: 1px dashed black;
-    vertical-align: middle;
-    
+    vertical-align: middle; 
 }
 
 .logo{
- height: 25px;   
-    
+ height: 25px;     
 }
 
 .col-3, .categories{
@@ -38,7 +41,62 @@
     margin-right: 5px;
 }
 
-
 .col-3> i{
     margin-right: 5px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cards{
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.products{
+    border: 3px dashed black;
+    width:calc(100% / 3 - 20px );
+    margin-right: 20px;
+    /* background-color: purple; */
+    margin-bottom: 60px;
+    position: relative;   
+}
+
+{}
+
+.tags{
+    position: absolute;
+    bottom: 100px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    
+}
+
+.green{
+    background-color: green;
+    color:white;
+    padding: 5px;
+}
+
+.side{
+    transform: translate(55px);
+}
+
+.price{
+    color: red;
+}
+
+.strike{
+    text-decoration: line-through;
 }
