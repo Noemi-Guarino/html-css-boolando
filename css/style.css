@@ -1,0 +1,44 @@
+{}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_container{
+    background-color: #FF6900 ;
+    height: 80px;
+    width: 100%;
+    border: 3px dashed blue;
+    position: fixed;
+    
+}
+
+.columns{
+   display: flex; 
+   justify-content: space-around;
+   padding: 20px;
+   border: 1px dashed black;
+    vertical-align: middle;
+    
+}
+
+.logo{
+ height: 25px;   
+    
+}
+
+.col-3, .categories{
+    color: white;
+    text-decoration: none;
+}
+
+.col-1> .categories{
+    margin-right: 5px;
+}
+
+
+.col-3> i{
+    margin-right: 5px;
+}
