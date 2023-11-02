@@ -1,0 +1,167 @@
+img{
+    width: 100%;
+    display: block;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_container{
+    background-color: #FF6900 ;
+    height: 80px;
+    width: 100%;
+    /* border: 3px dashed blue; */
+    /* position: fixed;   */
+    margin-bottom: 40px;
+}
+
+.columns{
+   display: flex; 
+   justify-content: space-between;
+   /* padding: 20px; */
+   /* border: 1px dashed black; */
+    vertical-align: middle;
+    padding-top: 30px; 
+}
+
+.logo{
+ height: 25px;     
+}
+
+.col-3, .categories{
+    color: white;
+    text-decoration: none;
+}
+
+.col-1> .categories{
+    margin-right: 5px;
+}
+
+.col-3> i{
+    margin-right: 5px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cards{
+    /* border: 1px dashed black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.products{
+    /* border: 3px dashed black; */
+    width:calc(100% / 3 - 20px );
+    margin-right: 20px;
+    /* background-color: purple; */
+    margin-bottom: 60px;
+    position: relative;   
+}
+
+.tags{
+    position: absolute;
+    bottom: 100px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 5px;  
+}
+
+.green{
+    background-color: green;
+    color:white;
+    padding: 5px;
+}
+
+.side{
+    transform: translate(55px);
+}
+
+.price{
+    color: red;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.footer-container{
+    background-color: black ;
+    height: 80px;
+    width: 100%;
+}
+
+.footer_columns{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 20px;
+     vertical-align: middle; 
+     margin-top: 20px;    
+}
+
+.footer-col-1, .footer-col-2{
+    color: white;
+}
+
+.footer-col-1> a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col-2> i{
+margin-right: 10px;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    margin-top: 10px;
+    top:0;
+    right: 0;
+}
+
+
+.hover{
+    display: none;
+}
+    
+.item:hover .nothover {
+    display: none;
+}
+.item:hover .hover {
+    display: block;
+}
+
+.hoverheart{
+    display: none;
+    
+}
+    
+.item:hover .nothoverheart {
+    display: none;
+    color: black;
+}
+.item:hover .hoverheart {
+    display: block;
+    color: red;
+}
+
+
+
+
+
+
